@@ -4,13 +4,13 @@
 #include <vector>
 using namespace std;
 
-/*
-    Banker's Algorithm Implementation
+
+    /* ---- Banker's Algorithm Implementation ----
     - Reads allocation, max, and available resources from an input file
     - Calculates need matrix
     - Determines if the system is in a safe state
     - Prints safe sequence if one exists
-*/
+    */
 
 const int MAX_P = 10;
 const int MAX_R = 10;
